@@ -91,11 +91,6 @@ export default function HeaderLinks(props) {
         </Tooltip>
       </ListItem>
       <ListItem className={classes.listItem}>
-        {/*<Tooltip title="Delete">
-          <IconButton aria-label="Delete">
-            <DeleteIcon />
-          </IconButton>
-        </Tooltip>*/}
         <Tooltip
           id="gitHub"
           title="Follow me on GitHub"
@@ -103,7 +98,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/CreativeTim?ref=creativetim"
+            href="https://github.com/EdeniltonBorba"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -113,11 +108,6 @@ export default function HeaderLinks(props) {
         </Tooltip>
       </ListItem>
       <ListItem className={classes.listItem}>
-        {/*<Tooltip title="Delete">
-          <IconButton aria-label="Delete">
-            <DeleteIcon />
-          </IconButton>
-        </Tooltip>*/}
         <Tooltip
           id="instagram-twitter"
           title="Follow me on twitter"
