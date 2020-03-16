@@ -10,7 +10,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Info, CloudDownload } from "@material-ui/icons";
+import { Info, CloudDownload, Reorder, ListAlt, ViewList, Email } from "@material-ui/icons";
 
 // core components
 import Button from "components/CustomButtons/Button.js";
@@ -40,7 +40,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Resume
+          <ListAlt className={classes.icons} /> Resume
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -50,7 +50,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Services
+          <Reorder className={classes.icons} /> Services
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -60,7 +60,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Portfolio
+          <ViewList className={classes.icons} /> Portfolio
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -70,7 +70,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Contact
+          <Email className={classes.icons} /> Contact
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
