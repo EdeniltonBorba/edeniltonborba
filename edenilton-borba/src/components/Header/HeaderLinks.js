@@ -10,7 +10,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
+import { Info, CloudDownload } from "@material-ui/icons";
 
 // core components
 import Button from "components/CustomButtons/Button.js";
@@ -30,7 +30,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> About Me
+          <Info className={classes.icons} /> About Me
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
