@@ -36,7 +36,6 @@ export default function SectionAvatarProfile() {
                     </GridContainer>
                     <GridContainer />
                 </div>
-                <div className={classes.space50} />
             </div>
         </div>
     );

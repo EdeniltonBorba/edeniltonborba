@@ -41,7 +41,7 @@ const typographyStyle = {
   },
   typoText: {
     paddingLeft: "20%",
-    marginBottom: "40px",
+    marginBottom: "5px",
     position: "relative",
     width: "100%",
     fontSize: "1.5625rem",
