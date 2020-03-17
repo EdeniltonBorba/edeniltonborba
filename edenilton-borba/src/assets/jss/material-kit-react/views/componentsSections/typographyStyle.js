@@ -46,6 +46,10 @@ const typographyStyle = {
     width: "100%"
   },
 
+  nickName: {
+    backgroundColor: 'aquamarine'
+  },
+
   marginLeft: {
     marginLeft: "left !important"
   },

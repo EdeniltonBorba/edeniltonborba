@@ -19,7 +19,7 @@ export default function SectionTypography() {
                 <div id="typography">
                     <GridContainer>
                         <div className={classes.typoText}>
-                            <h3>My name is Edenilton Borba. This is very long, so I mainly use Deni.</h3>
+                            <h3>My name is Edenilton Borba. This is very long, so I mainly use <span className="nickName">Deni</span>.</h3>
                         </div>
                     </GridContainer>
                 </div>
