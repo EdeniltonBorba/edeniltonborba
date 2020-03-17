@@ -26,6 +26,8 @@ export default function SectionTypography() {
                             such as organizational and financial administration and <span className={classes.loveTec}>love of technology</span>.
                             Looking for an opportunity to start working as a <span className={classes.fullStack}>Full Stack Web developer</span>.
                             </h4>
+
+                            <h3>Would you like to know a little more about me? Then access the resume !!</h3>
                         </div>
                     </GridContainer>
                 </div>
