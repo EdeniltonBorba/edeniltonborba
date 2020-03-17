@@ -40,14 +40,17 @@ const typographyStyle = {
     padding: "0px"
   },
   typoText: {
-    paddingLeft: "10%",
+    paddingLeft: "20%",
     marginBottom: "40px",
     position: "relative",
-    width: "100%"
+    width: "100%",
+    fontSize: "1.5625rem"
   },
 
   nickName: {
-    backgroundColor: 'aquamarine'
+    backgroundColor: 'darkgray',
+    padding: '0 10px'
+
   },
 
   marginLeft: {

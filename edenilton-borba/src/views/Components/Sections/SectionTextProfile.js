@@ -19,7 +19,13 @@ export default function SectionTypography() {
                 <div id="typography">
                     <GridContainer>
                         <div className={classes.typoText}>
-                            <h3>My name is Edenilton Borba. This is very long, so I mainly use <span className="nickName">Deni</span>.</h3>
+                            <h3>My name is Edenilton Borba. This is very long, so I mainly use <span className={classes.nickName}>Deni</span>.</h3>
+                            <h4>
+                                Born in Brazil and currently living in Berlin - Germany,
+                                I have more than 10 years of experience as a manager and consultant in business management in various areas
+                            such as organizational and financial administration and <span className={classes.loveTec}>love of technology</span>.
+                            Looking for an opportunity to start working as a <span className={classes.fullStack}>Full Stack Web developer</span>.
+                            </h4>
                         </div>
                     </GridContainer>
                 </div>

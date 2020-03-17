@@ -18,20 +18,11 @@ export default function SectionBootCamp() {
             <div className={classes.container}>
                 <GridContainer justify="center">
                     <GridItem xs={12} sm={12} md={8}>
-                        <h3>My name is Edenilton Borba. This is very long, so I mainly use Deni.</h3>
                         <h4>
-                            The kit comes with three pre-built pages to help you get started
-              faster. You can change the text and images and you{"'"}re good to
-                                                                      go. More importantly, looking at them will give you a picture of
-                                                                      what you can build with this powerful kit.
-                                                                      The kit comes with three pre-built pages to help you get started
-              faster. You can change the text and images and you{"'"}re good to
-                                                                      go. More importantly, looking at them will give you a picture of
-                                                                      what you can build with this powerful kit.
-                                                                      The kit comes with three pre-built pages to help you get started
-              faster. You can change the text and images and you{"'"}re good to
-                                                                      go. More importantly, looking at them will give you a picture of
-                                                                      what you can build with this powerful kit.
+                            Born in Brazil and currently living in Berlin - Germany,
+                            I have more than 10 years of experience as a manager and consultant in business management in various areas
+                            such as organizational and financial administration and <span className={classes.loveTec}>love of technology</span>.
+                            Looking for an opportunity to start working as a <span className={classes.fullStack}>Full Stack Web developer</span>.
             </h4>
                     </GridItem>
                 </GridContainer>
