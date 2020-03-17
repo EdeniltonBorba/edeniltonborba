@@ -8,14 +8,6 @@ const completedStyle = {
     ...container,
     textAlign: "center !important"
   },
-  loveTec: {
-    backgroundColor: 'darkgray',
-    padding: '0 10px'
-  },
-  fullStack: {
-    backgroundColor: 'darkgray',
-    padding: '0 10px'
-  }
 
 };
 

@@ -44,13 +44,24 @@ const typographyStyle = {
     marginBottom: "40px",
     position: "relative",
     width: "100%",
-    fontSize: "1.5625rem"
+    fontSize: "1.5625rem",
+    marginTop: "-180px",
   },
 
   nickName: {
     backgroundColor: 'darkgray',
     padding: '0 10px'
 
+  },
+
+  loveTec: {
+    backgroundColor: 'darkgray',
+    padding: '0 10px'
+  },
+
+  fullStack: {
+    backgroundColor: 'darkgray',
+    padding: '0 10px'
   },
 
   marginLeft: {

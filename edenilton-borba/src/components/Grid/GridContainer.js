@@ -11,7 +11,6 @@ const styles = {
     marginRight: "-15px",
     marginLeft: "-15px",
     width: "auto",
-    marginTop: "-180px"
   }
 };
 
