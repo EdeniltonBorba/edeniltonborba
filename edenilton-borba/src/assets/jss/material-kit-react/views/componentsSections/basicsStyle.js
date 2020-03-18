@@ -20,6 +20,11 @@ const basicsStyle = {
     height: "70px",
     display: "block"
   },
+
+  cvBootCamp: {
+    fontSize: "16px"
+  },
+
   icons: {
     width: "17px",
     height: "17px",
