@@ -22,6 +22,14 @@ export default function SectionCurriculum() {
                             <li>Styled Components</li>
                             <li>Tailwind CSS</li>
                         </ul>
+                        <h4>Server-side</h4>
+                        <ul className={classes.cvBootCamp}>
+                            <li>Docker</li>
+                            <li>Firebase</li>
+                            <li>Laravel/Lumen</li>
+                            <li>MariaDB/MySQL</li>
+                            <li>PostgreSQL</li>
+                        </ul>
 
                     </div>
 
