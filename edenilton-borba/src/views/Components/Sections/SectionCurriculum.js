@@ -16,6 +16,8 @@ export default function SectionCurriculum() {
                     <div>
                         <h4>Frontend</h4>
                         <ul className={classes.cvBootCamp}>
+                            <li>Html5</li>
+                            <li>Css3</li>
                             <li>Bootstrap 3/4</li>
                             <li>Bulma</li>
                             <li>Material-UI</li>
@@ -37,11 +39,14 @@ export default function SectionCurriculum() {
                     <div>
                         <h4>JavaScript</h4>
                         <ul className={classes.cvBootCamp}>
+                            <li>React</li>
+                            <li>Node.js</li>
                             <li>Gatsby.js</li>
                             <li>Next.js</li>
-                            <li>Node.js</li>
-                            <li>React</li>
-                            <li>Typescript</li>
+                        </ul>
+                        <h4>Tools of the trade</h4>
+                        <ul className={classes.cvBootCamp}>
+                            <li>Visual Studio Code</li>
                         </ul>
                     </div>
 
