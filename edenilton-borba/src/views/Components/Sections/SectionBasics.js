@@ -25,7 +25,7 @@ import Quote from "components/Typography/Quote.js";
 import styles from "assets/jss/material-kit-react/views/componentsSections/basicsStyle.js";
 import AvatarProfile from "views/Components/Sections/SectionAvatarProfile.js";
 import CV from "views/Components/Sections/SectionCv.js";
-
+import CurriculumBootCamp from "./SectionCurriculum.js";
 const useStyles = makeStyles(styles);
 
 export default function SectionBasics() {
