@@ -18,16 +18,15 @@ export default function SectionCurriculum() {
                         <ul className={classes.cvBootCamp}>
                             <li>Bootstrap 3/4</li>
                             <li>Bulma</li>
-                            <li>Emotion</li>
+                            <li>Material-UI</li>
                             <li>Styled Components</li>
                             <li>Tailwind CSS</li>
                         </ul>
                         <h4>Server-side</h4>
                         <ul className={classes.cvBootCamp}>
-                            <li>Docker</li>
-                            <li>Firebase</li>
-                            <li>Laravel/Lumen</li>
-                            <li>MariaDB/MySQL</li>
+                            <li>MongoDB</li>
+                            <li>MySQL</li>
+                            <li>MariaDB</li>
                             <li>PostgreSQL</li>
                         </ul>
 
@@ -36,7 +35,14 @@ export default function SectionCurriculum() {
                 </GridItem>
                 <GridItem xs={12} sm={6} md={4} lg={3}>
                     <div>
-                        <h4>Checkboxes</h4>
+                        <h4>JavaScript</h4>
+                        <ul className={classes.cvBootCamp}>
+                            <li>Gatsby.js</li>
+                            <li>Next.js</li>
+                            <li>Node.js</li>
+                            <li>React</li>
+                            <li>Typescript</li>
+                        </ul>
                     </div>
 
                 </GridItem>
