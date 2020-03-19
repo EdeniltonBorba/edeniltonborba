@@ -3,6 +3,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import styles from "assets/jss/material-kit-react/views/componentsSections/basicsStyle.js";
 import { makeStyles } from "@material-ui/core/styles";
+import Box from '@material-ui/core/Box';
 
 const useStyles = makeStyles(styles);
 
@@ -47,6 +48,15 @@ export default function SectionCurriculum() {
                         <h4>Tools of the trade</h4>
                         <ul className={classes.cvBootCamp}>
                             <li>Visual Studio Code</li>
+                        </ul>
+                        <h4>Infrastructure</h4>
+                        <ul className={classes.cvBootCamp}>
+                            <li>Netlify</li>
+                        </ul>
+                        <h4>Currently learning</h4>
+                        <ul className={classes.cvBootCamp}>
+                            <li>Typescript</li>
+                            <li>...and so on</li>
                         </ul>
                     </div>
 

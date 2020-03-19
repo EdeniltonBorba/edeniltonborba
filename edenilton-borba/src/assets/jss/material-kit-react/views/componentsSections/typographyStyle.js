@@ -45,7 +45,7 @@ const typographyStyle = {
     position: "relative",
     width: "100%",
     fontSize: "1.5625rem",
-    marginTop: "-180px",
+    marginTop: "-230px",
   },
 
   nickName: {
@@ -60,8 +60,9 @@ const typographyStyle = {
   },
 
   fullStack: {
-    backgroundColor: 'darkgray',
-    padding: '0 10px'
+    backgroundColor: 'dimgrey',
+    padding: '0 10px',
+    color: 'aliceblue',
   },
 
   marginLeft: {

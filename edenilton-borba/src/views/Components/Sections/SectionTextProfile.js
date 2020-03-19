@@ -25,12 +25,13 @@ export default function SectionTypography() {
                                 Born in Brazil and currently living in Berlin - Germany,
                                 I have more than 10 years of experience as a manager and consultant in business management in various areas
                                 such as organizational and financial administration and <span className={classes.loveTec}>love of technology</span>.
-                                Looking for an opportunity to start working as a <span className={classes.fullStack}>Full Stack Web developer</span>.
+                                <h3>Looking for an opportunity to start working as a <span className={classes.fullStack}>Full Stack Web developer</span>.</h3>
                             </h4>
 
                             <h3>Knowledge Base</h3>
 
-                            <Curriculum />
+                            <Curriculum justify="center"
+                                alignItems="center" />
 
                             <h3>Would you like to know a little more about me? Then access the resume !!</h3>
                         </div>
