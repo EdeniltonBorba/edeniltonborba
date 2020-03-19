@@ -90,6 +90,26 @@ export default function SectionBasics() {
 
         <CV />
 
+        <div className={classes.title}>
+          <h2>Services</h2>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div id="buttons">
           <div className={classes.title}>
