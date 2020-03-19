@@ -92,6 +92,7 @@ export default function SectionBasics() {
 
         <div className={classes.title}>
           <h2>Services</h2>
+          <h3>What can I do for you?</h3>
         </div>
 
 
