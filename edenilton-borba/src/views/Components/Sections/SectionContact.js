@@ -39,7 +39,7 @@ export default function SectionLogin() {
                                             color="transparent"
                                             onClick={e => e.preventDefault()}
                                         >
-                                            <i className={classes.socialIcons + " fab fa-twitter"} />
+                                            <i className={classes.socialIcons + " fab fa-linkedin"} />
                                         </Button>
                                         <Button
                                             justIcon
@@ -48,7 +48,7 @@ export default function SectionLogin() {
                                             color="transparent"
                                             onClick={e => e.preventDefault()}
                                         >
-                                            <i className={classes.socialIcons + " fab fa-twitter"} />
+                                            <i className={classes.socialIcons + " fab fa-github"} />
                                         </Button>
                                         <Button
                                             justIcon
@@ -77,7 +77,7 @@ export default function SectionLogin() {
                                         >
                                             <i
                                                 className={
-                                                    classes.socialIcons + " fab fa-google-plus-g"
+                                                    classes.socialIcons + " fab fa-instagram"
                                                 }
                                             />
                                         </Button>
