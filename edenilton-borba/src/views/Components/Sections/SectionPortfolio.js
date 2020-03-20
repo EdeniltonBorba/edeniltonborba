@@ -59,6 +59,78 @@ export default function SectionExamples() {
                             </Button>
                         </Link>
                     </GridItem>
+                    <GridItem xs={12} sm={12} md={6}>
+                        <Link to="landing-page" className={classes.link}>
+                            <img
+                                src={landing}
+                                alt="..."
+                                className={
+                                    classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid
+                                }
+                            />
+                            <Button color="primary" size="lg" simple>
+                                View landing page
+                            </Button>
+                        </Link>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={6}>
+                        <Link to="landing-page" className={classes.link}>
+                            <img
+                                src={landing}
+                                alt="..."
+                                className={
+                                    classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid
+                                }
+                            />
+                            <Button color="primary" size="lg" simple>
+                                View landing page
+                            </Button>
+                        </Link>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={6}>
+                        <Link to="landing-page" className={classes.link}>
+                            <img
+                                src={landing}
+                                alt="..."
+                                className={
+                                    classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid
+                                }
+                            />
+                            <Button color="primary" size="lg" simple>
+                                View landing page
+                            </Button>
+                        </Link>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={6}>
+                        <Link to="landing-page" className={classes.link}>
+                            <img
+                                src={landing}
+                                alt="..."
+                                className={
+                                    classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid
+                                }
+                            />
+                            <Button color="primary" size="lg" simple>
+                                View landing page
+                            </Button>
+                        </Link>
+                    </GridItem>
                 </GridContainer>
             </div>
         </div>
