@@ -27,6 +27,7 @@ import AvatarProfile from "views/Components/Sections/SectionAvatarProfile.js";
 import CV from "views/Components/Sections/SectionCv.js";
 import Services from "./SectionServices.js";
 import Portfolio from "./SectionPortfolio.js";
+import Contact from "./SectionContact.js";
 
 const useStyles = makeStyles(styles);
 
@@ -109,6 +110,14 @@ export default function SectionBasics() {
         </div>
 
         <Portfolio />
+
+        <div className={classes.typo}>
+          <h2>
+            Contact
+          </h2>
+        </div>
+
+
 
 
 
