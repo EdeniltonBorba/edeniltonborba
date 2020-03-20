@@ -4,11 +4,16 @@ import imagesStyle from "assets/jss/material-kit-react/imagesStyles.js";
 
 const exampleStyle = {
   section: {
-    padding: "70px 0"
+    width: "100%",
+    position: "relative",
+    flexBasis: "auto",
+    minHeight: "1px",
+    paddingLeft: "15px",
+    paddingRight: "15px",
   },
   container: {
     ...conatinerFluid,
-    textAlign: "center !important"
+    textAlign: "center !important",
   },
 
   servicesStyle: {
@@ -27,8 +32,6 @@ const exampleStyle = {
     marginBottom: "20px",
     justifyContent: "flex-start",
     backgroundColor: "#fff",
-    paddingleft: "15px",
-    paddingRight: "15px"
   },
   ...imagesStyle,
   link: {
