@@ -56,6 +56,11 @@ const loginStyle = {
     textAlign: "center",
     padding: "0"
   },
+
+  contactStyle: {
+    fontSize: "12px"
+  },
+
   inputIconsColor: {
     color: "#495057"
   }

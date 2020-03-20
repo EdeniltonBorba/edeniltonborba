@@ -14,13 +14,13 @@ import CardHeader from "components/Card/CardHeader.js";
 import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
 import Button from "components/CustomButtons/Button.js";
-import CustomInput from "components/CustomInput/CustomInput.js";
+
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/loginStyle.js";
 
 const useStyles = makeStyles(styles);
 
-export default function SectionLogin() {
+export default function SectionContact() {
     const classes = useStyles();
     return (
         <div className={classes.section}>
@@ -34,16 +34,15 @@ export default function SectionLogin() {
                                     <div className={classes.socialLine}>
                                         <Button
                                             justIcon
-                                            href="#edenilton"
+                                            href="https://www.linkedin.com/in/edenilton-borba-861a9b18a/"
                                             target="_blank"
                                             color="transparent"
-                                            onClick={e => e.preventDefault()}
                                         >
                                             <i className={classes.socialIcons + " fab fa-linkedin"} />
                                         </Button>
                                         <Button
                                             justIcon
-                                            href="#edenilton"
+                                            href="https://github.com/EdeniltonBorba"
                                             target="_blank"
                                             color="transparent"
                                             onClick={e => e.preventDefault()}
@@ -52,7 +51,7 @@ export default function SectionLogin() {
                                         </Button>
                                         <Button
                                             justIcon
-                                            href="#edenilton"
+                                            href="https://twitter.com/EdeniltonBorba_"
                                             target="_blank"
                                             color="transparent"
                                             onClick={e => e.preventDefault()}
@@ -70,7 +69,7 @@ export default function SectionLogin() {
                                         </Button>
                                         <Button
                                             justIcon
-                                            href="#pablo"
+                                            href="https://www.instagram.com/edenilton_borba/"
                                             target="_blank"
                                             color="transparent"
                                             onClick={e => e.preventDefault()}
@@ -85,65 +84,25 @@ export default function SectionLogin() {
                                 </CardHeader>
                                 <p className={classes.divider}>Or Be Classical</p>
                                 <CardBody>
-                                    <CustomInput
-                                        labelText="First Name..."
-                                        id="first"
-                                        formControlProps={{
-                                            fullWidth: true
-                                        }}
-                                        inputProps={{
-                                            type: "text",
-                                            endAdornment: (
-                                                <InputAdornment position="end">
-                                                    <People className={classes.inputIconsColor} />
-                                                </InputAdornment>
-                                            )
-                                        }}
-                                    />
-                                    <CustomInput
-                                        labelText="Email..."
-                                        id="email"
-                                        formControlProps={{
-                                            fullWidth: true
-                                        }}
-                                        inputProps={{
-                                            type: "email",
-                                            endAdornment: (
-                                                <InputAdornment position="end">
-                                                    <Email className={classes.inputIconsColor} />
-                                                </InputAdornment>
-                                            )
-                                        }}
-                                    />
-                                    <CustomInput
-                                        labelText="Password"
-                                        id="pass"
-                                        formControlProps={{
-                                            fullWidth: true
-                                        }}
-                                        inputProps={{
-                                            type: "password",
-                                            endAdornment: (
-                                                <InputAdornment position="end">
-                                                    <Icon className={classes.inputIconsColor}>
-                                                        lock_outline
-                          </Icon>
-                                                </InputAdornment>
-                                            ),
-                                            autoComplete: "off"
-                                        }}
-                                    />
+                                    <div>
+                                        <Email />
+                                        edeniltonborba.adm@gmail.com
+
+
+                                    </div>
+
+
+                                    <br />
+
+
+                                    <h4>+49 174 3306573</h4>
                                 </CardBody>
-                                <CardFooter className={classes.cardFooter}>
-                                    <Button simple color="primary" size="lg">
-                                        Get started
-                  </Button>
-                                </CardFooter>
+
                             </form>
                         </Card>
                     </GridItem>
                 </GridContainer>
             </div>
-        </div>
+        </div >
     );
 }
