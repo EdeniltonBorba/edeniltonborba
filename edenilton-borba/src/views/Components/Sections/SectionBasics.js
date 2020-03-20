@@ -101,6 +101,13 @@ export default function SectionBasics() {
 
         <Services />
 
+        <div className={classes.typo}>
+          <h2>
+            Portfolio
+            <h3>My latest works</h3>
+          </h2>
+        </div>
+
         <Portfolio />
 
 
