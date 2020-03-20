@@ -117,6 +117,8 @@ export default function SectionBasics() {
           </h2>
         </div>
 
+        <Contact />
+
 
 
 
