@@ -58,7 +58,7 @@ const loginStyle = {
   },
 
   contactStyle: {
-    fontSize: "20px"
+    fontSize: "18px"
   },
 
   inputIconsColor: {

@@ -17,7 +17,9 @@ import Button from "components/CustomButtons/Button.js";
 
 
 
+
 import styles from "assets/jss/material-kit-react/views/componentsSections/loginStyle.js";
+import { Whatshot } from "@material-ui/icons";
 
 const useStyles = makeStyles(styles);
 
@@ -82,14 +84,9 @@ export default function SectionContact() {
                                 <p className={classes.divider}>Or Be Classical</p>
                                 <CardBody>
                                     <div className={classes.contactStyle}>
-
                                         <Email /> edeniltonborba.adm@gmail.com
-
                                     </div>
-
-
                                     <br />
-
 
                                     <h4>+49 174 3306573</h4>
                                 </CardBody>
