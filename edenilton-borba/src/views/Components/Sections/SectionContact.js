@@ -30,11 +30,29 @@ export default function SectionLogin() {
                         <Card>
                             <form className={classes.form}>
                                 <CardHeader color="primary" className={classes.cardHeader}>
-                                    <h4>Login</h4>
+                                    <h4>Follow me</h4>
                                     <div className={classes.socialLine}>
                                         <Button
                                             justIcon
-                                            href="#pablo"
+                                            href="#edenilton"
+                                            target="_blank"
+                                            color="transparent"
+                                            onClick={e => e.preventDefault()}
+                                        >
+                                            <i className={classes.socialIcons + " fab fa-twitter"} />
+                                        </Button>
+                                        <Button
+                                            justIcon
+                                            href="#edenilton"
+                                            target="_blank"
+                                            color="transparent"
+                                            onClick={e => e.preventDefault()}
+                                        >
+                                            <i className={classes.socialIcons + " fab fa-twitter"} />
+                                        </Button>
+                                        <Button
+                                            justIcon
+                                            href="#edenilton"
                                             target="_blank"
                                             color="transparent"
                                             onClick={e => e.preventDefault()}
