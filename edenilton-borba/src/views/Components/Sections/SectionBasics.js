@@ -26,6 +26,8 @@ import styles from "assets/jss/material-kit-react/views/componentsSections/basic
 import AvatarProfile from "views/Components/Sections/SectionAvatarProfile.js";
 import CV from "views/Components/Sections/SectionCv.js";
 import Services from "./SectionServices.js";
+import Portfolio from "./SectionPortfolio.js";
+
 const useStyles = makeStyles(styles);
 
 export default function SectionBasics() {
@@ -98,6 +100,10 @@ export default function SectionBasics() {
         </div>
 
         <Services />
+
+        <Portfolio />
+
+
 
 
 
