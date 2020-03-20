@@ -25,7 +25,7 @@ import Quote from "components/Typography/Quote.js";
 import styles from "assets/jss/material-kit-react/views/componentsSections/basicsStyle.js";
 import AvatarProfile from "views/Components/Sections/SectionAvatarProfile.js";
 import CV from "views/Components/Sections/SectionCv.js";
-import CurriculumBootCamp from "./SectionCurriculum.js";
+import Services from "./SectionServices.js";
 const useStyles = makeStyles(styles);
 
 export default function SectionBasics() {
@@ -90,11 +90,14 @@ export default function SectionBasics() {
 
         <CV />
 
-        <div className={classes.title}>
-          <h2>Services</h2>
-          <h3>What can I do for you?</h3>
+        <div className={classes.typo}>
+          <h2>
+            Services
+            <h3>What can I do for you?</h3>
+          </h2>
         </div>
 
+        <Services />
 
 
 
