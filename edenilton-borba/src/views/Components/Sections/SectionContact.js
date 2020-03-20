@@ -16,6 +16,7 @@ import CardFooter from "components/Card/CardFooter.js";
 import Button from "components/CustomButtons/Button.js";
 
 
+
 import styles from "assets/jss/material-kit-react/views/componentsSections/loginStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -45,7 +46,6 @@ export default function SectionContact() {
                                             href="https://github.com/EdeniltonBorba"
                                             target="_blank"
                                             color="transparent"
-                                            onClick={e => e.preventDefault()}
                                         >
                                             <i className={classes.socialIcons + " fab fa-github"} />
                                         </Button>
@@ -54,7 +54,6 @@ export default function SectionContact() {
                                             href="https://twitter.com/EdeniltonBorba_"
                                             target="_blank"
                                             color="transparent"
-                                            onClick={e => e.preventDefault()}
                                         >
                                             <i className={classes.socialIcons + " fab fa-twitter"} />
                                         </Button>
@@ -63,7 +62,6 @@ export default function SectionContact() {
                                             href="#pablo"
                                             target="_blank"
                                             color="transparent"
-                                            onClick={e => e.preventDefault()}
                                         >
                                             <i className={classes.socialIcons + " fab fa-facebook"} />
                                         </Button>
@@ -72,7 +70,6 @@ export default function SectionContact() {
                                             href="https://www.instagram.com/edenilton_borba/"
                                             target="_blank"
                                             color="transparent"
-                                            onClick={e => e.preventDefault()}
                                         >
                                             <i
                                                 className={
@@ -84,10 +81,9 @@ export default function SectionContact() {
                                 </CardHeader>
                                 <p className={classes.divider}>Or Be Classical</p>
                                 <CardBody>
-                                    <div>
-                                        <Email />
-                                        edeniltonborba.adm@gmail.com
+                                    <div className={classes.contactStyle}>
 
+                                        <Email /> edeniltonborba.adm@gmail.com
 
                                     </div>
 
