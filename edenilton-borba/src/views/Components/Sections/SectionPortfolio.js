@@ -67,7 +67,7 @@ export default function SectionExamples() {
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
                             <img
-                                src={GoodWork}
+                                src={CodeQuiz}
                                 alt="..."
                                 className={
                                     classes.imgRaised +
@@ -85,7 +85,7 @@ export default function SectionExamples() {
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
                             <img
-                                src={GoodWork}
+                                src={WordGuessGame}
                                 alt="..."
                                 className={
                                     classes.imgRaised +
@@ -103,7 +103,7 @@ export default function SectionExamples() {
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
                             <img
-                                src={GoodWork}
+                                src={DayPlanner}
                                 alt="..."
                                 className={
                                     classes.imgRaised +
@@ -121,7 +121,25 @@ export default function SectionExamples() {
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
                             <img
-                                src={GoodWork}
+                                src={GeneratorProfile}
+                                alt="..."
+                                className={
+                                    classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid
+                                }
+                            />
+                            <Button color="primary" size="lg" simple>
+                                View landing page
+                            </Button>
+                        </Link>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={6}>
+                        <Link to="landing-page" className={classes.link}>
+                            <img
+                                src={SearchAPI}
                                 alt="..."
                                 className={
                                     classes.imgRaised +
