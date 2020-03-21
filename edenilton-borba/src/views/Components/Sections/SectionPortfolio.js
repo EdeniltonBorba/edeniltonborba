@@ -9,9 +9,14 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
+import DayPlanner from "assets/img/DayPlanner.png";
+import GoodWork from "assets/img/goodwork.png";
+import GeneratorProfile from "assets/img/Dev Profile Generator.png";
+import Supermarket from "assets/img/Supermarket.png";
+import CodeQuiz from "assets/img/CodeQuiz.png";
+import WordGuessGame from "assets/img/WordGuessGame.png";
+import SearchAPI from "assets/img/Search API Worked.png";
 
-import landing from "assets/img/landing.jpg";
-import profile from "assets/img/profile.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
 
@@ -26,7 +31,7 @@ export default function SectionExamples() {
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
                             <img
-                                src={landing}
+                                src={GoodWork}
                                 alt="..."
                                 className={
                                     classes.imgRaised +
@@ -44,7 +49,7 @@ export default function SectionExamples() {
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="profile-page" className={classes.link}>
                             <img
-                                src={profile}
+                                src={Supermarket}
                                 alt="..."
                                 className={
                                     classes.imgRaised +
@@ -62,7 +67,7 @@ export default function SectionExamples() {
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
                             <img
-                                src={landing}
+                                src={GoodWork}
                                 alt="..."
                                 className={
                                     classes.imgRaised +
@@ -80,7 +85,7 @@ export default function SectionExamples() {
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
                             <img
-                                src={landing}
+                                src={GoodWork}
                                 alt="..."
                                 className={
                                     classes.imgRaised +
@@ -98,7 +103,7 @@ export default function SectionExamples() {
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
                             <img
-                                src={landing}
+                                src={GoodWork}
                                 alt="..."
                                 className={
                                     classes.imgRaised +
@@ -116,7 +121,7 @@ export default function SectionExamples() {
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
                             <img
-                                src={landing}
+                                src={GoodWork}
                                 alt="..."
                                 className={
                                     classes.imgRaised +

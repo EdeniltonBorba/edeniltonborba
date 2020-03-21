@@ -12,8 +12,8 @@ const footerStyle = {
     position: "relative",
     display: "block"
   },
-  left: {
-    float: "left!important",
+  center: {
+    float: "center!important",
     display: "block"
   },
   right: {
