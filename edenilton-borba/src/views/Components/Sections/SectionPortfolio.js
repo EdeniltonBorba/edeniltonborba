@@ -47,7 +47,7 @@ export default function SectionExamples() {
                         </Link>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="profile-page" className={classes.link}>
+                        <Link to="landing-page" className={classes.link}>
                             <img
                                 src={Supermarket}
                                 alt="..."
