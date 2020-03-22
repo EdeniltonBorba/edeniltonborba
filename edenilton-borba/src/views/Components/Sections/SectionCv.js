@@ -76,7 +76,6 @@ export default function SectionCv() {
                                             <Close className={classes.modalClose} />
                                         </IconButton>
                                         <CurriculumDeni />
-                                        <h4 className={classes.modalTitle}>Modal title</h4>
                                     </DialogTitle>
                                     <DialogContent
                                         id="classic-modal-slide-description"

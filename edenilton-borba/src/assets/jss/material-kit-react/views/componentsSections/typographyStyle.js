@@ -83,6 +83,10 @@ const typographyStyle = {
     paddingLeft: "15px",
     flexBasis: "auto"
   },
+  modalTitle: {
+    fontSize: "20px",
+  },
+
 
   marginLeft: {
     marginLeft: "left !important"

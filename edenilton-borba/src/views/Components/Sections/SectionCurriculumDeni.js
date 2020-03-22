@@ -18,9 +18,8 @@ export default function SectionCurriculumDeni() {
     return (
         <div className={classes.section}>
             <div className={classes.container}>
-                <GridContainer>
-                    <GridItem xs={12} sm={2} className={classes.marginLeft}>
-                        <h4>Circle Image</h4>
+                <GridContainer justify="center">
+                    <GridItem xs={12} sm={2}>
                         <img
                             src={image}
                             alt="..."
@@ -28,6 +27,20 @@ export default function SectionCurriculumDeni() {
                         />
                     </GridItem>
                 </GridContainer>
+                <GridContainer justify="center">
+                    <h3>Edenilton Borba</h3>
+                </GridContainer>
+                <GridContainer>
+                    <GridItem xs={12}>
+                        <p>Date of birth: 06/04/1984</p>
+                        <p>Nationality: Brazilian</p>
+                        <p>Marital Status: Married with Two Children</p>
+                        <p>Address: Berlin - Germany</p>
+                        <p>WhatsApp: +49 174 3306573</p>
+                        <p>E-mail: edeniltonborba.adm@gmail.com</p>
+                    </GridItem>
+                </GridContainer>
+
             </div>
         </div>
     );
