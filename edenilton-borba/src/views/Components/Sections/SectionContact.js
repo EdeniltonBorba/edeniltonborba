@@ -11,6 +11,7 @@ import CardHeader from "components/Card/CardHeader.js";
 import CardBody from "components/Card/CardBody.js";
 import Button from "components/CustomButtons/Button.js";
 import styles from "assets/jss/material-kit-react/views/componentsSections/loginStyle.js";
+import Avatar from "./SectionAvatarContact.js";
 
 const useStyles = makeStyles(styles);
 
@@ -24,6 +25,7 @@ export default function SectionContact() {
                         <Card>
                             <form className={classes.form}>
                                 <CardHeader color="primary" className={classes.cardHeader}>
+
                                     <h4>Follow me</h4>
                                     <div className={classes.socialLine}>
                                         <Button
