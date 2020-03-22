@@ -12,6 +12,7 @@ import CardBody from "components/Card/CardBody.js";
 import Button from "components/CustomButtons/Button.js";
 import styles from "assets/jss/material-kit-react/views/componentsSections/loginStyle.js";
 import Avatar from "./SectionAvatarContact.js";
+import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 
 const useStyles = makeStyles(styles);
 
@@ -79,9 +80,9 @@ export default function SectionContact() {
                                     <div className={classes.contactStyle}>
                                         <Email /> edeniltonborba.adm@gmail.com
                                     </div>
-                                    <br />
-
-                                    <h4>+49 174 3306573</h4>
+                                    <div className={classes.contactStyle}>
+                                        <ChatBubbleOutlineIcon /> +49 174 3306573
+                                    </div>
                                 </CardBody>
 
                             </form>
