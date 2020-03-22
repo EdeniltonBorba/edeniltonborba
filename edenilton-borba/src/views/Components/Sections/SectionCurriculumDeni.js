@@ -74,20 +74,16 @@ export default function SectionCurriculumDeni() {
                     </GridItem>
                     <GridItem xs={12}>
                         <h4 className={classes.educationStyle}>Other Skills</h4>
-                        <p><span>04/2018 - 10/2019</span> Butterhandlung Restaurant, Berlin-Germany</p>
-                        <p>Management Consulting</p>
+                        <h5>Languages</h5>
+                        <p>Portugues <span> ( Native Language )</span></p>
                         <br />
-                        <p><span>10/2017 - 03/2018</span> Honey Box Catering, Berlin-Germany</p>
-                        <p>Management Consulting</p>
+                        <p>English</p>
                         <br />
-                        <p><span>03/2014 - 12/2016</span> Du Xin Restauran, Joinville-Brazil</p>
-                        <p>CEO</p>
+                        <p>German</p>
                         <br />
-                        <p><span>04/2013 - 12/2015</span> Portato Italian Fast Food, Joinville-Brazil</p>
-                        <p>CEO</p>
+                        <p>Spanish</p>
                         <br />
-                        <p><span>01/2005 - 03/2013</span> Tekinox Professional Kitchens, Joinville-Brazil</p>
-                        <p>Controller</p>
+
 
                     </GridItem>
                 </GridContainer>
