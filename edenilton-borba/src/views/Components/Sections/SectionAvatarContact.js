@@ -17,17 +17,11 @@ const useStyles = makeStyles(styles);
 export default function SectionAvatarContact() {
     const classes = useStyles();
     return (
-        <div className={classes.section}>
+        <div className={classes.sectionContact}>
             <div className={classes.container}>
                 <div id="typography">
-                    <div className={classes.title}>
-                        <h2>Typography</h2>
-                    </div>
-
-                    <br />
                     <GridContainer>
-                        <GridItem xs={12} sm={2} className={classes.marginLeft}>
-                            <h4>Circle Raised</h4>
+                        <GridItem xs={12} sm={2} className={classes.marginCenter}>
                             <img
                                 src={image}
                                 alt="..."
@@ -43,7 +37,6 @@ export default function SectionAvatarContact() {
                     </GridContainer>
                     <GridContainer />
                 </div>
-                <div className={classes.space50} />
             </div>
         </div>
     );

@@ -6,6 +6,11 @@ const typographyStyle = {
   section: {
     padding: "30px 0"
   },
+
+  sectionContact: {
+    padding: "0"
+  },
+
   container,
   space50: {
     height: "50px",
@@ -63,6 +68,10 @@ const typographyStyle = {
     backgroundColor: 'dimgrey',
     padding: '0 10px',
     color: 'aliceblue',
+  },
+
+  marginCenter: {
+    margin: "center !important"
   },
 
   marginLeft: {

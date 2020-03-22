@@ -25,7 +25,7 @@ export default function SectionContact() {
                         <Card>
                             <form className={classes.form}>
                                 <CardHeader color="primary" className={classes.cardHeader}>
-
+                                    <Avatar />
                                     <h4>Follow me</h4>
                                     <div className={classes.socialLine}>
                                         <Button
