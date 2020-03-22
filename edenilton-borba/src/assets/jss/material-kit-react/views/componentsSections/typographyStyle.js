@@ -86,7 +86,13 @@ const typographyStyle = {
   modalTitle: {
     fontSize: "20px",
   },
-
+  educationStyle: {
+    borderBottom: "1px solid #ccc!important",
+    borderColor: "#f44336!important",
+  },
+  pStyle: {
+    padding: "0",
+  },
 
   marginLeft: {
     marginLeft: "left !important"
