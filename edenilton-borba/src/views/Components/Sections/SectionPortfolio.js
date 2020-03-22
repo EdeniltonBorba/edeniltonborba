@@ -16,8 +16,11 @@ import Supermarket from "assets/img/Supermarket.png";
 import CodeQuiz from "assets/img/CodeQuiz.png";
 import WordGuessGame from "assets/img/WordGuessGame.png";
 import SearchAPI from "assets/img/Search API Worked.png";
-
-
+import EmployeeTracker from "assets/img/EmployeeTracker.png";
+import NodeExpress from "assets/img/NodeExpress.png";
+import NoteTaker from "assets/img/NoteTaker.png";
+import TemplateEngine from "assets/img/TemplateEngine.png";
+import WorkoutTracker from "assets/img/WorkoutTracker.png";
 import styles from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -122,6 +125,78 @@ export default function SectionExamples() {
                         <Link to="landing-page" className={classes.link}>
                             <img
                                 src={GeneratorProfile}
+                                alt="..."
+                                className={
+                                    classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid
+                                }
+                            />
+                            <Button color="primary" size="lg" simple>
+                                View landing page
+                            </Button>
+                        </Link>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={6}>
+                        <Link to="landing-page" className={classes.link}>
+                            <img
+                                src={SearchAPI}
+                                alt="..."
+                                className={
+                                    classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid
+                                }
+                            />
+                            <Button color="primary" size="lg" simple>
+                                View landing page
+                            </Button>
+                        </Link>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={6}>
+                        <Link to="landing-page" className={classes.link}>
+                            <img
+                                src={SearchAPI}
+                                alt="..."
+                                className={
+                                    classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid
+                                }
+                            />
+                            <Button color="primary" size="lg" simple>
+                                View landing page
+                            </Button>
+                        </Link>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={6}>
+                        <Link to="landing-page" className={classes.link}>
+                            <img
+                                src={SearchAPI}
+                                alt="..."
+                                className={
+                                    classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid
+                                }
+                            />
+                            <Button color="primary" size="lg" simple>
+                                View landing page
+                            </Button>
+                        </Link>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={6}>
+                        <Link to="landing-page" className={classes.link}>
+                            <img
+                                src={SearchAPI}
                                 alt="..."
                                 className={
                                     classes.imgRaised +
