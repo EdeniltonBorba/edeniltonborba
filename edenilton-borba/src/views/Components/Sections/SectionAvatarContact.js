@@ -21,7 +21,7 @@ export default function SectionAvatarContact() {
             <div className={classes.container}>
                 <div id="typography">
                     <GridContainer justify="center">
-                        <GridItem xs={12} sm={12} md={5} className={classes.marginLeft}>
+                        <GridItem xs={12} sm={12} md={7} className={classes.gridAvatar}>
                             <img
                                 src={image}
                                 alt="..."

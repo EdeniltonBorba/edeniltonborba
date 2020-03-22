@@ -74,6 +74,16 @@ const typographyStyle = {
     margin: "center !important"
   },
 
+  gridAvatar: {
+    marginTop: "-100px",
+    position: "relative",
+    width: "100%",
+    minHeight: "1px",
+    paddingRight: "15px",
+    paddingLeft: "15px",
+    flexBasis: "auto"
+  },
+
   marginLeft: {
     marginLeft: "left !important"
   },
