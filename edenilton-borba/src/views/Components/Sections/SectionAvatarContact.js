@@ -20,22 +20,15 @@ export default function SectionAvatarContact() {
         <div className={classes.sectionContact}>
             <div className={classes.container}>
                 <div id="typography">
-                    <GridContainer>
-                        <GridItem xs={12} sm={2} className={classes.marginCenter}>
+                    <GridContainer justify="center">
+                        <GridItem xs={12} sm={12} md={5} className={classes.marginLeft}>
                             <img
                                 src={image}
                                 alt="..."
-                                className={
-                                    classes.imgRaised +
-                                    " " +
-                                    classes.imgRoundedCircle +
-                                    " " +
-                                    classes.imgFluid
-                                }
+                                className={classes.imgRoundedCircle + " " + classes.imgFluid}
                             />
                         </GridItem>
                     </GridContainer>
-                    <GridContainer />
                 </div>
             </div>
         </div>
