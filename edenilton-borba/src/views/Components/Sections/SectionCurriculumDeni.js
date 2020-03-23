@@ -82,9 +82,6 @@ export default function SectionCurriculumDeni() {
                         <p>German</p>
                         <br />
                         <p>Spanish</p>
-                        <br />
-
-
                     </GridItem>
                 </GridContainer>
 

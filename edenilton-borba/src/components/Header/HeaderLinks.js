@@ -14,7 +14,7 @@ import { Info, CloudDownload, Reorder, ListAlt, ViewList, Email } from "@materia
 
 // core components
 import Button from "components/CustomButtons/Button.js";
-
+import About from "../../views/Components/Sections/SectionBasics.js"
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -25,7 +25,7 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
+          href="../../views/Components/Sections/SectionBasics.js"
           color="transparent"
           target="_blank"
           className={classes.navLink}
