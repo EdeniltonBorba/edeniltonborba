@@ -24,15 +24,16 @@ export default function SectionTypography() {
                             <h4>
                                 Born in Brazil and currently living in Berlin - Germany,
                                 I have more than 10 years of experience as a manager and consultant in business management in various areas
-                                such as organizational and financial administration and <span className={classes.loveTec}>love of technology</span>.
-                                <h3>Looking for an opportunity to start working as a <span className={classes.fullStack}>Full Stack Web developer</span>.</h3>
+                                such as organizational and financial administration and recently graduated in <span className={classes.loveTec}> full-stack </span> coding Bootcamp at ESMT Berlin.
                             </h4>
 
                             <h3>Knowledge Base</h3>
 
                             <Curriculum justify="center"
                                 alignItems="center" />
-
+                        </div>
+                        <div className={classes.typoTextTwo}>
+                            <h3>Looking for an opportunity to start working as a <span className={classes.fullStack}>Full Stack Web developer</span>.</h3>
                             <h3>Would you like to know a little more about me? Then access the resume !!</h3>
                         </div>
                     </GridContainer>
