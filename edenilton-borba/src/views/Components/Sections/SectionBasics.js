@@ -33,6 +33,7 @@ export default function SectionBasics() {
 
         <CV />
 
+
         <div className={classes.typo}>
           <h2>
             Services

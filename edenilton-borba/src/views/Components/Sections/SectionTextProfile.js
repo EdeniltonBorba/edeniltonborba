@@ -28,7 +28,7 @@ export default function SectionTypography() {
                             </h4>
 
                             <h3>Knowledge Base</h3>
-                            <div justify="center">
+                            <div>
                                 <Curriculum />
                             </div>
                         </div>
