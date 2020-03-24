@@ -28,9 +28,9 @@ export default function SectionTypography() {
                             </h4>
 
                             <h3>Knowledge Base</h3>
-
-                            <Curriculum justify="center"
-                                alignItems="center" />
+                            <div justify="center">
+                                <Curriculum />
+                            </div>
                         </div>
                         <div className={classes.typoTextTwo}>
                             <h3>Looking for an opportunity to start working as a <span className={classes.fullStack}>Full Stack Web developer</span>.</h3>

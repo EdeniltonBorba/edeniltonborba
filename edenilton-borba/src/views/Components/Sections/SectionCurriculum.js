@@ -24,14 +24,6 @@ export default function SectionCurriculum() {
                             <li>Styled Components</li>
                             <li>Tailwind CSS</li>
                         </ul>
-                        <h4>Server-side</h4>
-                        <ul className={classes.cvBootCamp}>
-                            <li>MongoDB</li>
-                            <li>MySQL</li>
-                            <li>MariaDB</li>
-                            <li>PostgreSQL</li>
-                        </ul>
-
                     </div>
 
                 </GridItem>
@@ -48,6 +40,22 @@ export default function SectionCurriculum() {
                         <ul className={classes.cvBootCamp}>
                             <li>Visual Studio Code</li>
                         </ul>
+                    </div>
+
+                </GridItem>
+                <GridItem xs={12} sm={6} md={4} lg={3}>
+                    <div>
+                        <h4>Server-side</h4>
+                        <ul className={classes.cvBootCamp}>
+                            <li>MongoDB</li>
+                            <li>MySQL</li>
+                            <li>MariaDB</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                </GridItem>
+                <GridItem xs={12} sm={6} md={4} lg={3}>
+                    <div>
                         <h4>Infrastructure</h4>
                         <ul className={classes.cvBootCamp}>
                             <li>Netlify</li>
@@ -58,7 +66,6 @@ export default function SectionCurriculum() {
                             <li>...and so on</li>
                         </ul>
                     </div>
-
                 </GridItem>
             </GridContainer>
 
