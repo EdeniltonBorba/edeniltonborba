@@ -1,5 +1,5 @@
 import { container, title } from "assets/jss/material-kit-react.js";
-import customCheckboxRadioSwitch from "assets/jss/material-kit-react/customCheckboxRadioSwitch.js";
+
 
 const basicsStyle = {
   sections: {
@@ -30,7 +30,6 @@ const basicsStyle = {
     height: "17px",
     color: "#FFFFFF"
   },
-  ...customCheckboxRadioSwitch
 };
 
 export default basicsStyle;
