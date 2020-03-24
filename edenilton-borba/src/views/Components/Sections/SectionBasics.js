@@ -35,6 +35,7 @@ export default function SectionBasics() {
 
 
         <div className={classes.typo}>
+          <div className={classes.space70} />
           <h2>
             Services
             <h3>What can I do for you?</h3>
@@ -44,6 +45,7 @@ export default function SectionBasics() {
         <Services />
 
         <div className={classes.typo}>
+          <div className={classes.space50} />
           <h2>
             Portfolio
             <h3>My latest works</h3>

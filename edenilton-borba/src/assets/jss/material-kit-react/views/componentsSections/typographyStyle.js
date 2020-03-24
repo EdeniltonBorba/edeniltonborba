@@ -4,7 +4,7 @@ import imagesStyles from "assets/jss/material-kit-react/imagesStyles.js";
 
 const typographyStyle = {
   section: {
-    padding: "30px 0"
+    padding: "30px 0 5px"
   },
 
   sectionContact: {
