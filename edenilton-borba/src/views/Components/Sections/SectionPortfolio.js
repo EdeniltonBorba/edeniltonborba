@@ -22,7 +22,9 @@ import NoteTaker from "assets/img/NoteTaker.png";
 import TemplateEngine from "assets/img/TemplateEngine.png";
 import WorkoutTracker from "assets/img/WorkoutTracker.png";
 import LastMinuteTrip from "assets/img/LastMinuteTrip.png";
+import UnderConstructor from "assets/img/UnderConstruction.png";
 import styles from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
+
 
 const useStyles = makeStyles(styles);
 
@@ -269,7 +271,7 @@ export default function SectionExamples() {
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
                             <img
-                                src={WorkoutTracker}
+                                src={UnderConstructor}
                                 alt="..."
                                 className={
                                     classes.imgRaised +
