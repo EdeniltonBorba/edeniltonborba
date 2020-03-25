@@ -15,9 +15,8 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href="#"
+          href="#About"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           <Info className={classes.icons} /> About Me
@@ -25,9 +24,8 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="#"
+          href="#Portfolio"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           <ListAlt className={classes.icons} /> Resume

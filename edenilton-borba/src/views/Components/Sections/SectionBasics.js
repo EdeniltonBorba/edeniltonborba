@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Quote from "components/Typography/Quote.js";
 import styles from "assets/jss/material-kit-react/views/componentsSections/basicsStyle.js";
 import AvatarProfile from "views/Components/Sections/SectionAvatarProfile.js";
-import CV from "views/Components/Sections/SectionCv.js";
+
 
 
 const useStyles = makeStyles(styles);
@@ -28,9 +28,6 @@ export default function SectionBasics() {
         </div>
 
         <AvatarProfile />
-
-        <CV />
-
 
       </div>
     </div>

@@ -12,6 +12,7 @@ import styles from "assets/jss/material-kit-react/views/components.js";
 import Services from "./Sections/SectionServices.js";
 import Portfolio from "./Sections/SectionPortfolio.js";
 import Contact from "./Sections/SectionContact.js";
+import CV from "views/Components/Sections/SectionCv.js";
 
 const useStyles = makeStyles(styles);
 
@@ -19,72 +20,76 @@ export default function Components(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
-    <div>
-      <Header
-        brand="Edenilton Borba"
-        rightLinks={<HeaderLinks />}
-        fixed
-        color="transparent"
-        changeColorOnScroll={{
-          height: 400,
-          color: "white"
-        }}
-        {...rest}
-      />
-      <Parallax image={require("assets/img/bg2.jpg")}>
-        <div className={classes.container}>
-          <GridContainer>
-            <GridItem>
-              <div className={classes.brand}>
-                <h1 className={classes.title}>Edenilton Borba.</h1>
-                <h3 className={classes.subtitle}>
-                  Full-stack Coding Bootcamp graduate at ESMT Berlin.
-                </h3>
-              </div>
-            </GridItem>
-          </GridContainer>
-        </div>
-      </Parallax>
-      <div className={classNames(classes.main, classes.mainRaised)}>
-
-        <SectionBasics />
-
-        <div className={classes.sections}>
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+      <div>
+        <Header
+          brand="Edenilton Borba"
+          rightLinks={<HeaderLinks />}
+          fixed
+          color="transparent"
+          changeColorOnScroll={{
+            height: 400,
+            color: "white"
+          }}
+          {...rest}
+        />
+        <Parallax image={require("assets/img/bg2.jpg")}>
           <div className={classes.container}>
-            <div className={classes.typo}>
-              <div className={classes.space70} />
-              <h2>
-                Services
+            <GridContainer id="Home">
+              <GridItem>
+                <div className={classes.brand}>
+                  <h1 className={classes.title}>Edenilton Borba.</h1>
+                  <h3 className={classes.subtitle}>
+                    Full-stack Coding Bootcamp graduate at ESMT Berlin.
+                </h3>
+                </div>
+              </GridItem>
+            </GridContainer>
+          </div>
+        </Parallax>
+        <div className={classNames(classes.main, classes.mainRaised)}>
+
+          <SectionBasics id="About" />
+
+          <CV />
+
+          <div className={classes.sections}>
+            <div className={classes.container}>
+              <div className={classes.typo}>
+                <div className={classes.space70} />
+                <h2 id="Services">
+                  Services
             <h3>What can I do for you?</h3>
-              </h2>
-            </div>
+                </h2>
+              </div>
 
-            <Services />
+              <Services />
 
-            <div className={classes.typo}>
-              <div className={classes.space50} />
-              <h2>
-                Portfolio
+              <div className={classes.typo}>
+                <div className={classes.space50} />
+                <h2 id="Portfolio">
+                  Portfolio
             <h3>My latest works</h3>
-              </h2>
-            </div>
+                </h2>
+              </div>
 
-            <Portfolio />
+              <Portfolio />
 
-            <div className={classes.typo}>
-              <h2>
-                Contact
+              <div className={classes.typo}>
+                <h2 id="Contact">
+                  Contact
           </h2>
+              </div>
+
             </div>
 
           </div>
-
+          <Contact />
         </div>
-        <Contact />
+
+
+        <Footer />
       </div>
-
-
-      <Footer />
     </div>
   );
 }
