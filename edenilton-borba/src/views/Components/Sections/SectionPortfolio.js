@@ -34,6 +34,7 @@ export default function SectionExamples() {
         <div className={classes.section}>
             <div className={classes.container}>
                 <GridContainer justify="center">
+
                     <GridItem xs={12} sm={12} md={6}>
                         <a href="https://goodwork.netlify.com/" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
@@ -51,10 +52,11 @@ export default function SectionExamples() {
                                 GoodWork
                             </Button>
                         </a>
-                        <p className={classes.pStyle}>Platform that connection service providers to customers..</p>
+                        <p className={classes.pStyle}>Platform that connection service providers to customers.</p>
                     </GridItem>
+
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={Supermarket}
                                 alt="..."
@@ -69,8 +71,10 @@ export default function SectionExamples() {
                             <Button color="primary" size="lg" simple>
                                 Navio
                             </Button>
-                        </Link>
+                        </a>
+                        <p className={classes.pStyle}>Platform for e-commerce.</p>
                     </GridItem>
+
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
                             <img
