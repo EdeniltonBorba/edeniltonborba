@@ -21,6 +21,7 @@ import NodeExpress from "assets/img/NodeExpress.png";
 import NoteTaker from "assets/img/NoteTaker.png";
 import TemplateEngine from "assets/img/TemplateEngine.png";
 import WorkoutTracker from "assets/img/WorkoutTracker.png";
+import LastMinuteTrip from "assets/img/LastMinuteTrip.png";
 import styles from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -45,7 +46,7 @@ export default function SectionExamples() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View landing page
+                                GoodWork
                             </Button>
                         </Link>
                     </GridItem>
@@ -81,7 +82,7 @@ export default function SectionExamples() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View landing page
+                                Code Quiz
                             </Button>
                         </Link>
                     </GridItem>
@@ -99,7 +100,7 @@ export default function SectionExamples() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View landing page
+                                Word Guess Game
                             </Button>
                         </Link>
                     </GridItem>
@@ -117,7 +118,25 @@ export default function SectionExamples() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View landing page
+                                Day Planner
+                            </Button>
+                        </Link>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={6}>
+                        <Link to="landing-page" className={classes.link}>
+                            <img
+                                src={LastMinuteTrip}
+                                alt="..."
+                                className={
+                                    classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluidStyle
+                                }
+                            />
+                            <Button color="primary" size="lg" simple>
+                                Last Minute Trip
                             </Button>
                         </Link>
                     </GridItem>
@@ -244,6 +263,24 @@ export default function SectionExamples() {
                             />
                             <Button color="primary" size="lg" simple>
                                 View landing page
+                            </Button>
+                        </Link>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={6}>
+                        <Link to="landing-page" className={classes.link}>
+                            <img
+                                src={WorkoutTracker}
+                                alt="..."
+                                className={
+                                    classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluidStyle
+                                }
+                            />
+                            <Button color="primary" size="lg" simple>
+                                Under construction
                             </Button>
                         </Link>
                     </GridItem>
