@@ -32,6 +32,13 @@ const componentsStyle = {
     textDecoration: "none"
   },
 
+  typoTextTwo: {
+    paddingLeft: "10%",
+    marginBottom: "5px",
+    position: "relative",
+    width: "100%",
+    fontSize: "1.5625rem",
+  },
 
   style70: {
     padding: "70px 0 0 0"

@@ -52,7 +52,7 @@ export default function Components(props) {
           <div id="About" >
             <SectionBasics />
           </div>
-          <div>
+          <div className={classes.typoTextTwo}>
             <h3>Would you like to know a little more about me? Then access the resume !!</h3>
           </div>
           <CV />
@@ -69,7 +69,7 @@ export default function Components(props) {
 
               <div className={classes.typo}>
                 <div className={classes.space50} />
-                <h2 id="Portfolio" className={classes.style70}>
+                <h2>
                   Portfolio
             <h3>My latest works</h3>
                 </h2>
