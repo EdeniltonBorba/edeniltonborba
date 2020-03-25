@@ -75,7 +75,9 @@ export default function SectionContact() {
                                 <p className={classes.divider}>Or Be Classical</p>
                                 <CardBody>
                                     <div className={classes.contactStyle}>
-                                        <Email /> edeniltonborba.adm@gmail.com
+                                        <a href="mailto:edeniltonborba.adm@gmail.com" >
+                                            <Email /> edeniltonborba.adm@gmail.com
+                                        </a>
                                     </div>
                                     <div className={classes.contactStyle}>
                                         <ChatBubbleOutlineIcon /> +49 174 3306573
