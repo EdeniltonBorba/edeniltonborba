@@ -102,6 +102,12 @@ const typographyStyle = {
   pStyle: {
     padding: "0",
   },
+  space70: {
+    height: "70px",
+    display: "block"
+  },
+
+
 
   marginLeft: {
     marginLeft: "left !important"

@@ -41,7 +41,7 @@ export default function SectionExamples() {
                                     " " +
                                     classes.imgRounded +
                                     " " +
-                                    classes.imgFluid
+                                    classes.imgFluidStyle
                                 }
                             />
                             <Button color="primary" size="lg" simple>
@@ -59,7 +59,7 @@ export default function SectionExamples() {
                                     " " +
                                     classes.imgRounded +
                                     " " +
-                                    classes.imgFluid
+                                    classes.imgFluidStyle
                                 }
                             />
                             <Button color="primary" size="lg" simple>
@@ -77,7 +77,7 @@ export default function SectionExamples() {
                                     " " +
                                     classes.imgRounded +
                                     " " +
-                                    classes.imgFluid
+                                    classes.imgFluidStyle
                                 }
                             />
                             <Button color="primary" size="lg" simple>
@@ -95,7 +95,7 @@ export default function SectionExamples() {
                                     " " +
                                     classes.imgRounded +
                                     " " +
-                                    classes.imgFluid
+                                    classes.imgFluidStyle
                                 }
                             />
                             <Button color="primary" size="lg" simple>
@@ -113,7 +113,7 @@ export default function SectionExamples() {
                                     " " +
                                     classes.imgRounded +
                                     " " +
-                                    classes.imgFluid
+                                    classes.imgFluidStyle
                                 }
                             />
                             <Button color="primary" size="lg" simple>
@@ -131,7 +131,7 @@ export default function SectionExamples() {
                                     " " +
                                     classes.imgRounded +
                                     " " +
-                                    classes.imgFluid
+                                    classes.imgFluidStyle
                                 }
                             />
                             <Button color="primary" size="lg" simple>
@@ -149,7 +149,7 @@ export default function SectionExamples() {
                                     " " +
                                     classes.imgRounded +
                                     " " +
-                                    classes.imgFluid
+                                    classes.imgFluidStyle
                                 }
                             />
                             <Button color="primary" size="lg" simple>
@@ -167,7 +167,7 @@ export default function SectionExamples() {
                                     " " +
                                     classes.imgRounded +
                                     " " +
-                                    classes.imgFluid
+                                    classes.imgFluidStyle
                                 }
                             />
                             <Button color="primary" size="lg" simple>
@@ -185,7 +185,7 @@ export default function SectionExamples() {
                                     " " +
                                     classes.imgRounded +
                                     " " +
-                                    classes.imgFluid
+                                    classes.imgFluidStyle
                                 }
                             />
                             <Button color="primary" size="lg" simple>
@@ -203,7 +203,7 @@ export default function SectionExamples() {
                                     " " +
                                     classes.imgRounded +
                                     " " +
-                                    classes.imgFluid
+                                    classes.imgFluidStyle
                                 }
                             />
                             <Button color="primary" size="lg" simple>
@@ -221,7 +221,7 @@ export default function SectionExamples() {
                                     " " +
                                     classes.imgRounded +
                                     " " +
-                                    classes.imgFluid
+                                    classes.imgFluidStyle
                                 }
                             />
                             <Button color="primary" size="lg" simple>
@@ -239,7 +239,7 @@ export default function SectionExamples() {
                                     " " +
                                     classes.imgRounded +
                                     " " +
-                                    classes.imgFluid
+                                    classes.imgFluidStyle
                                 }
                             />
                             <Button color="primary" size="lg" simple>

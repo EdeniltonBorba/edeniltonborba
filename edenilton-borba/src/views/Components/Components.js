@@ -52,26 +52,24 @@ export default function Components(props) {
           <div id="About" >
             <SectionBasics />
           </div>
-
-          <div id="resume">
-            <CV />
+          <div>
+            <h3>Would you like to know a little more about me? Then access the resume !!</h3>
           </div>
-
+          <CV />
           <div className={classes.sections}>
             <div className={classes.container}>
               <div className={classes.typo}>
                 <div className={classes.space70} />
-                <h2 id="Services">
+                <h2 id="Services" className={classes.style70}>
                   Services
             <h3>What can I do for you?</h3>
                 </h2>
               </div>
-
               <Services />
 
               <div className={classes.typo}>
                 <div className={classes.space50} />
-                <h2 id="Portfolio">
+                <h2 id="Portfolio" className={classes.style70}>
                   Portfolio
             <h3>My latest works</h3>
                 </h2>
@@ -94,6 +92,6 @@ export default function Components(props) {
 
         <Footer />
       </div>
-    </div>
+    </div >
   );
 }

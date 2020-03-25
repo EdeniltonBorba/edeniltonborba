@@ -50,6 +50,7 @@ const typographyStyle = {
   dangerText: {
     color: dangerColor
   },
+
   smallText: {
     fontSize: "65%",
     fontWeight: "400",

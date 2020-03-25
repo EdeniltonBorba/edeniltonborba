@@ -32,9 +32,8 @@ export default function SectionTypography() {
                                 <Curriculum />
                             </div>
                         </div>
-                        <div className={classes.typoTextTwo}>
+                        <div id="resume" className={classes.typoTextTwo}>
                             <h3>Looking for an opportunity to start working as a <span className={classes.fullStack}>Full Stack Web developer</span>.</h3>
-                            <h3>Would you like to know a little more about me? Then access the resume !!</h3>
                         </div>
                     </GridContainer>
                 </div>

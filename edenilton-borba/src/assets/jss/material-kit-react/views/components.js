@@ -31,6 +31,12 @@ const componentsStyle = {
   link: {
     textDecoration: "none"
   },
+
+
+  style70: {
+    padding: "70px 0 0 0"
+  },
+
   textCenter: {
     textAlign: "center"
   }

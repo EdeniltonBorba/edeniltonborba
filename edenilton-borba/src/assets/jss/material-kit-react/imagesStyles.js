@@ -3,6 +3,12 @@ const imagesStyles = {
     maxWidth: "100%",
     height: "auto"
   },
+
+  imgFluidStyle: {
+    maxWidth: "100%",
+    height: "350px"
+  },
+
   imgRounded: {
     borderRadius: "6px !important"
   },
