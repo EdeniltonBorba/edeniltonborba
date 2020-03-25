@@ -35,7 +35,7 @@ export default function Components(props) {
         />
         <Parallax image={require("assets/img/bg2.jpg")}>
           <div className={classes.container}>
-            <GridContainer id="Home">
+            <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
                   <h1 className={classes.title}>Edenilton Borba.</h1>
@@ -49,9 +49,13 @@ export default function Components(props) {
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
 
-          <SectionBasics id="About" />
+          <div id="About" >
+            <SectionBasics />
+          </div>
 
-          <CV />
+          <div id="resume">
+            <CV />
+          </div>
 
           <div className={classes.sections}>
             <div className={classes.container}>
@@ -75,8 +79,8 @@ export default function Components(props) {
 
               <Portfolio />
 
-              <div className={classes.typo}>
-                <h2 id="Contact">
+              <div className={classes.typo} id="Contact">
+                <h2>
                   Contact
           </h2>
               </div>
