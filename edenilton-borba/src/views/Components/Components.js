@@ -9,6 +9,9 @@ import Parallax from "components/Parallax/Parallax.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import SectionBasics from "./Sections/SectionBasics.js";
 import styles from "assets/jss/material-kit-react/views/components.js";
+import Services from "./Sections/SectionServices.js";
+import Portfolio from "./Sections/SectionPortfolio.js";
+import Contact from "./Sections/SectionContact.js";
 
 const useStyles = makeStyles(styles);
 
@@ -42,10 +45,44 @@ export default function Components(props) {
           </GridContainer>
         </div>
       </Parallax>
-
       <div className={classNames(classes.main, classes.mainRaised)}>
+
         <SectionBasics />
+
+        <div className={classes.sections}>
+          <div className={classes.container}>
+            <div className={classes.typo}>
+              <div className={classes.space70} />
+              <h2>
+                Services
+            <h3>What can I do for you?</h3>
+              </h2>
+            </div>
+
+            <Services />
+
+            <div className={classes.typo}>
+              <div className={classes.space50} />
+              <h2>
+                Portfolio
+            <h3>My latest works</h3>
+              </h2>
+            </div>
+
+            <Portfolio />
+
+            <div className={classes.typo}>
+              <h2>
+                Contact
+          </h2>
+            </div>
+            <Contact />
+          </div>
+
+        </div>
       </div>
+
+
       <Footer />
     </div>
   );
