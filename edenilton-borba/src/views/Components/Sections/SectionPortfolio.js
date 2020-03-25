@@ -66,7 +66,7 @@ export default function SectionExamples() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View profile page
+                                Navio
                             </Button>
                         </Link>
                     </GridItem>
@@ -156,9 +156,10 @@ export default function SectionExamples() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View landing page
+                                Developer Profile Generator
                             </Button>
                         </Link>
+                        <p className={classes.pStyle}>Command-line application that dynamically generates a PDF profile from a GitHub username.</p>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>

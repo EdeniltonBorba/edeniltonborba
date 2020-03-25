@@ -11,6 +11,12 @@ const exampleStyle = {
     textAlign: "center !important",
   },
 
+  pStyle: {
+    fontSize: "14px",
+    marginTop: "-20px",
+    marginBottom: "50px",
+  },
+
   ...imagesStyle,
   link: {
     textDecoration: "none"
