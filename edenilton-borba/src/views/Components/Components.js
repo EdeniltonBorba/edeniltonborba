@@ -76,10 +76,11 @@ export default function Components(props) {
                 Contact
           </h2>
             </div>
-            <Contact />
+
           </div>
 
         </div>
+        <Contact />
       </div>
 
 
