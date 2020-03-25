@@ -35,10 +35,10 @@ export default function SectionExamples() {
             <div className={classes.container}>
                 <GridContainer justify="center">
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Developer_Profile_Generator" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={GoodWork}
-                                alt="..."
+                                alt="GoodWork"
                                 className={
                                     classes.imgRaised +
                                     " " +
@@ -50,7 +50,7 @@ export default function SectionExamples() {
                             <Button color="primary" size="lg" simple>
                                 GoodWork
                             </Button>
-                        </Link>
+                        </a>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
@@ -142,11 +142,13 @@ export default function SectionExamples() {
                             </Button>
                         </Link>
                     </GridItem>
+
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <div className={classes.link}>
                             <img
+                                href="https://www.linkedin.com/in/edenilton-borba-861a9b18a/"
                                 src={GeneratorProfile}
-                                alt="..."
+                                alt="Developer Profile Generator"
                                 className={
                                     classes.imgRaised +
                                     " " +
@@ -155,12 +157,16 @@ export default function SectionExamples() {
                                     classes.imgFluidStyle
                                 }
                             />
-                            <Button color="primary" size="lg" simple>
+                            <Button
+                                href="https://www.linkedin.com/in/edenilton-borba-861a9b18a/"
+                                color="primary" size="lg" simple
+                                target="_blank">
                                 Developer Profile Generator
                             </Button>
-                        </Link>
+                        </div>
                         <p className={classes.pStyle}>Command-line application that dynamically generates a PDF profile from a GitHub username.</p>
                     </GridItem>
+
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
                             <img

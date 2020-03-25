@@ -17,6 +17,10 @@ const exampleStyle = {
     marginBottom: "50px",
   },
 
+  linkGit: {
+    href: "https://github.com/EdeniltonBorba/Developer_Profile_Generator"
+  },
+
   ...imagesStyle,
   link: {
     textDecoration: "none"
