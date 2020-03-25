@@ -35,7 +35,7 @@ export default function SectionExamples() {
             <div className={classes.container}>
                 <GridContainer justify="center">
                     <GridItem xs={12} sm={12} md={6}>
-                        <a href="https://github.com/EdeniltonBorba/Developer_Profile_Generator" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://goodwork.netlify.com/" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={GoodWork}
                                 alt="GoodWork"
@@ -51,6 +51,7 @@ export default function SectionExamples() {
                                 GoodWork
                             </Button>
                         </a>
+                        <p className={classes.pStyle}>Platform that connection service providers to customers..</p>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={6}>
                         <Link to="landing-page" className={classes.link}>
