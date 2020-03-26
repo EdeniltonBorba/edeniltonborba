@@ -1,6 +1,4 @@
 import React from "react";
-// react components for routing our app without refresh
-import { Link } from "react-router-dom";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
@@ -59,7 +57,7 @@ export default function SectionExamples() {
                         <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={Supermarket}
-                                alt="..."
+                                alt="Navio"
                                 className={
                                     classes.imgRaised +
                                     " " +
@@ -76,7 +74,7 @@ export default function SectionExamples() {
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={CodeQuiz}
                                 alt="..."
@@ -91,10 +89,11 @@ export default function SectionExamples() {
                             <Button color="primary" size="lg" simple>
                                 Code Quiz
                             </Button>
-                        </Link>
+                        </a>
                     </GridItem>
+
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={WordGuessGame}
                                 alt="..."
@@ -109,10 +108,11 @@ export default function SectionExamples() {
                             <Button color="primary" size="lg" simple>
                                 Word Guess Game
                             </Button>
-                        </Link>
+                        </a>
                     </GridItem>
+
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={DayPlanner}
                                 alt="..."
@@ -127,10 +127,11 @@ export default function SectionExamples() {
                             <Button color="primary" size="lg" simple>
                                 Day Planner
                             </Button>
-                        </Link>
+                        </a>
                     </GridItem>
+
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={LastMinuteTrip}
                                 alt="..."
@@ -145,11 +146,11 @@ export default function SectionExamples() {
                             <Button color="primary" size="lg" simple>
                                 Last Minute Trip
                             </Button>
-                        </Link>
+                        </a>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <div className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 href="https://www.linkedin.com/in/edenilton-borba-861a9b18a/"
                                 src={GeneratorProfile}
@@ -168,12 +169,12 @@ export default function SectionExamples() {
                                 target="_blank">
                                 Developer Profile Generator
                             </Button>
-                        </div>
+                        </a>
                         <p className={classes.pStyle}>Command-line application that dynamically generates a PDF profile from a GitHub username.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={SearchAPI}
                                 alt="..."
@@ -188,10 +189,11 @@ export default function SectionExamples() {
                             <Button color="primary" size="lg" simple>
                                 View landing page
                             </Button>
-                        </Link>
+                        </a>
                     </GridItem>
+
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={EmployeeTracker}
                                 alt="..."
@@ -206,10 +208,11 @@ export default function SectionExamples() {
                             <Button color="primary" size="lg" simple>
                                 View landing page
                             </Button>
-                        </Link>
+                        </a>
                     </GridItem>
+
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={NodeExpress}
                                 alt="..."
@@ -224,10 +227,11 @@ export default function SectionExamples() {
                             <Button color="primary" size="lg" simple>
                                 View landing page
                             </Button>
-                        </Link>
+                        </a>
                     </GridItem>
+
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={NoteTaker}
                                 alt="..."
@@ -242,10 +246,11 @@ export default function SectionExamples() {
                             <Button color="primary" size="lg" simple>
                                 View landing page
                             </Button>
-                        </Link>
+                        </a>
                     </GridItem>
+
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={TemplateEngine}
                                 alt="..."
@@ -260,10 +265,11 @@ export default function SectionExamples() {
                             <Button color="primary" size="lg" simple>
                                 View landing page
                             </Button>
-                        </Link>
+                        </a>
                     </GridItem>
+
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={WorkoutTracker}
                                 alt="..."
@@ -278,10 +284,11 @@ export default function SectionExamples() {
                             <Button color="primary" size="lg" simple>
                                 View landing page
                             </Button>
-                        </Link>
+                        </a>
                     </GridItem>
+
                     <GridItem xs={12} sm={12} md={6}>
-                        <Link to="landing-page" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={UnderConstructor}
                                 alt="..."
@@ -296,8 +303,9 @@ export default function SectionExamples() {
                             <Button color="primary" size="lg" simple>
                                 Under construction
                             </Button>
-                        </Link>
+                        </a>
                     </GridItem>
+
                 </GridContainer>
             </div>
         </div>
