@@ -214,10 +214,10 @@ export default function SectionExamples() {
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Node-Express-Handlebars" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={NodeExpress}
-                                alt="..."
+                                alt="Node Express"
                                 className={
                                     classes.imgRaised +
                                     " " +
@@ -227,17 +227,17 @@ export default function SectionExamples() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View landing page
+                                Node Express Handlebars
                             </Button>
                         </a>
-                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
+                        <p className={classes.pStyle}>A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Note-Taker" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={NoteTaker}
-                                alt="..."
+                                alt="Note Taker"
                                 className={
                                     classes.imgRaised +
                                     " " +
@@ -247,17 +247,17 @@ export default function SectionExamples() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View landing page
+                                Note Taker
                             </Button>
                         </a>
-                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
+                        <p className={classes.pStyle}>An application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Template-Engine" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={TemplateEngine}
-                                alt="..."
+                                alt="Template Engine"
                                 className={
                                     classes.imgRaised +
                                     " " +
@@ -267,17 +267,17 @@ export default function SectionExamples() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View landing page
+                                Template Engine
                             </Button>
                         </a>
-                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
+                        <p className={classes.pStyle}>A Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Workout-Tracker" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={WorkoutTracker}
-                                alt="..."
+                                alt="Workout Tracker"
                                 className={
                                     classes.imgRaised +
                                     " " +
@@ -287,17 +287,17 @@ export default function SectionExamples() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View landing page
+                                Workout Tracker
                             </Button>
                         </a>
-                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
+                        <p className={classes.pStyle}>A workout tracker. Was created Mongo database with a Mongoose schema and handle routes with Express.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="#" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={UnderConstructor}
-                                alt="..."
+                                alt="Under Construction"
                                 className={
                                     classes.imgRaised +
                                     " " +
@@ -310,7 +310,7 @@ export default function SectionExamples() {
                                 Under construction
                             </Button>
                         </a>
-                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
+
                     </GridItem>
 
                 </GridContainer>
