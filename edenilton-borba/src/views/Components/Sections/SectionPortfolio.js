@@ -134,10 +134,10 @@ export default function SectionExamples() {
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://github.com/snufka/LastMinuteTrip" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={LastMinuteTrip}
-                                alt="..."
+                                alt="Last Minute Trip"
                                 className={
                                     classes.imgRaised +
                                     " " +
@@ -150,6 +150,7 @@ export default function SectionExamples() {
                                 Last Minute Trip
                             </Button>
                         </a>
+                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
