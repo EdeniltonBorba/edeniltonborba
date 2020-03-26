@@ -52,7 +52,7 @@ export default function SectionContact() {
                                         </Button>
                                         <Button
                                             justIcon
-                                            href="#pablo"
+                                            href="https://www.facebook.com/edenilton.borba.1"
                                             target="_blank"
                                             color="transparent"
                                         >
