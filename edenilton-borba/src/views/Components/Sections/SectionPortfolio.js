@@ -174,10 +174,10 @@ export default function SectionExamples() {
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://pfdzm.github.io/NYTimesSearch/" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={SearchAPI}
-                                alt="..."
+                                alt="Search API"
                                 className={
                                     classes.imgRaised +
                                     " " +
@@ -187,17 +187,17 @@ export default function SectionExamples() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View landing page
+                                NY Times Search
                             </Button>
                         </a>
-                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
+                        <p className={classes.pStyle}>Search the NY Times archive using their Search API Worked.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Employee-Tracker" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={EmployeeTracker}
-                                alt="..."
+                                alt="Employee Tracker"
                                 className={
                                     classes.imgRaised +
                                     " " +
@@ -207,10 +207,10 @@ export default function SectionExamples() {
                                 }
                             />
                             <Button color="primary" size="lg" simple>
-                                View landing page
+                                Employee Tracker
                             </Button>
                         </a>
-                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
+                        <p className={classes.pStyle}>Solution for managing employees of a company using the node, the inquirer and MySQL.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
