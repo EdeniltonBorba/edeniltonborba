@@ -114,7 +114,7 @@ export default function SectionExamples() {
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://edeniltonborba.github.io/Day-Planner/" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={DayPlanner}
                                 alt="Day Planner"
@@ -130,6 +130,7 @@ export default function SectionExamples() {
                                 Day Planner
                             </Button>
                         </a>
+                        <p className={classes.pStyle}>A simple calendar application that allows the user to save events for each hour of the day.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
