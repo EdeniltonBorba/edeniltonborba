@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7828ff43.chunk.css",
+    "main.js": "/static/js/main.a261d5bf.chunk.js",
+    "main.js.map": "/static/js/main.a261d5bf.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.2efed672.js",
+    "runtime~main.js.map": "/static/js/runtime~main.2efed672.js.map",
+    "static/js/2.9834fe41.chunk.js": "/static/js/2.9834fe41.chunk.js",
+    "static/js/2.9834fe41.chunk.js.map": "/static/js/2.9834fe41.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.860134bacbc1d6372ac6d4eaf71af61d.js": "/precache-manifest.860134bacbc1d6372ac6d4eaf71af61d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7828ff43.chunk.css.map": "/static/css/main.7828ff43.chunk.css.map",
+    "static/media/CodeQuiz.png": "/static/media/CodeQuiz.1624d330.png",
+    "static/media/DayPlanner.png": "/static/media/DayPlanner.3a1124ca.png",
+    "static/media/Deni.jpg": "/static/media/Deni.8ebf3446.jpg",
+    "static/media/Dev Profile Generator.png": "/static/media/Dev Profile Generator.9613859a.png",
+    "static/media/EmployeeTracker.png": "/static/media/EmployeeTracker.f939dbfb.png",
+    "static/media/FotoPerfil.jpg": "/static/media/FotoPerfil.fba6996b.jpg",
+    "static/media/LastMinuteTrip.png": "/static/media/LastMinuteTrip.9b0ee4ce.png",
+    "static/media/NodeExpress.png": "/static/media/NodeExpress.c4408e28.png",
+    "static/media/NoteTaker.png": "/static/media/NoteTaker.cddc1a6d.png",
+    "static/media/Search API Worked.png": "/static/media/Search API Worked.b49b0dd2.png",
+    "static/media/Supermarket.png": "/static/media/Supermarket.d93a4a2f.png",
+    "static/media/TemplateEngine.png": "/static/media/TemplateEngine.9a928af7.png",
+    "static/media/UnderConstruction.png": "/static/media/UnderConstruction.447873de.png",
+    "static/media/WordGuessGame.png": "/static/media/WordGuessGame.4f1841f3.png",
+    "static/media/WorkoutTracker.png": "/static/media/WorkoutTracker.c0274b7d.png",
+    "static/media/bg2.jpg": "/static/media/bg2.84378183.jpg",
+    "static/media/goodwork.png": "/static/media/goodwork.17f12ee9.png",
+    "static/media/sign.jpg": "/static/media/sign.cf8b686b.jpg"
+  }
+}
