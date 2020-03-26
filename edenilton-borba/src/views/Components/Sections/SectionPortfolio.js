@@ -154,9 +154,8 @@ export default function SectionExamples() {
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://github.com/EdeniltonBorba/Developer_Profile_Generator" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
-                                href="https://www.linkedin.com/in/edenilton-borba-861a9b18a/"
                                 src={GeneratorProfile}
                                 alt="Developer Profile Generator"
                                 className={
@@ -167,10 +166,7 @@ export default function SectionExamples() {
                                     classes.imgFluidStyle
                                 }
                             />
-                            <Button
-                                href="https://www.linkedin.com/in/edenilton-borba-861a9b18a/"
-                                color="primary" size="lg" simple
-                                target="_blank">
+                            <Button color="primary" size="lg" simple>
                                 Developer Profile Generator
                             </Button>
                         </a>
@@ -194,6 +190,7 @@ export default function SectionExamples() {
                                 View landing page
                             </Button>
                         </a>
+                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
@@ -213,6 +210,7 @@ export default function SectionExamples() {
                                 View landing page
                             </Button>
                         </a>
+                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
@@ -232,6 +230,7 @@ export default function SectionExamples() {
                                 View landing page
                             </Button>
                         </a>
+                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
@@ -251,6 +250,7 @@ export default function SectionExamples() {
                                 View landing page
                             </Button>
                         </a>
+                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
@@ -270,6 +270,7 @@ export default function SectionExamples() {
                                 View landing page
                             </Button>
                         </a>
+                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
@@ -289,6 +290,7 @@ export default function SectionExamples() {
                                 View landing page
                             </Button>
                         </a>
+                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
@@ -308,6 +310,7 @@ export default function SectionExamples() {
                                 Under construction
                             </Button>
                         </a>
+                        <p className={classes.pStyle}>The user chooses a vacation destination based on his favorite activities and weather.</p>
                     </GridItem>
 
                 </GridContainer>
