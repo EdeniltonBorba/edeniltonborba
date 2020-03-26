@@ -45,13 +45,13 @@ const typographyStyle = {
     padding: "0px"
   },
   typoText: {
-    paddingLeft: "20%",
+    paddingLeft: "18%",
     marginBottom: "5px",
     position: "relative",
     width: "100%",
     fontSize: "1.5625rem",
     marginTop: "-230px",
-    marginRight: "135px"
+    marginRight: "90px"
   },
 
   typoTextTwo: {
@@ -63,14 +63,25 @@ const typographyStyle = {
   },
 
   nickName: {
-    backgroundColor: 'darkgray',
-    padding: '0 10px'
+    backgroundColor: '#ff8b1e',
+    padding: '0 10px',
+    color: "white",
+    fontSize: "30px"
 
   },
 
   loveTec: {
+    backgroundColor: '#115293',
+    padding: '0 7px',
+    color: "white",
+    fontSize: "30px"
+  },
+
+  esmtStyle: {
     backgroundColor: 'darkgray',
-    padding: '0 10px'
+    padding: '0 7px',
+    color: "white",
+    fontSize: "30px"
   },
 
   fullStack: {

@@ -24,7 +24,7 @@ export default function SectionTypography() {
                             <h4>
                                 Born in Brazil and currently living in Berlin - Germany,
                                 I have more than 10 years of experience as a manager and consultant in business management in various areas
-                                such as organizational and financial administration and recently graduated in <span className={classes.loveTec}> full-stack </span> coding Bootcamp at ESMT Berlin.
+                                such as organizational and financial administration and recently graduated in <span className={classes.loveTec}>full-stack</span> coding Bootcamp at <span className={classes.esmtStyle}>ESMT Berlin</span>.
                             </h4>
 
                             <h3>Knowledge Base</h3>
