@@ -74,10 +74,10 @@ export default function SectionExamples() {
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://edeniltonborba.github.io/CodeQuiz/" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={CodeQuiz}
-                                alt="..."
+                                alt="Code Quiz"
                                 className={
                                     classes.imgRaised +
                                     " " +
@@ -90,13 +90,14 @@ export default function SectionExamples() {
                                 Code Quiz
                             </Button>
                         </a>
+                        <p className={classes.pStyle}>The challenge was to create a code test with multiple choice questions.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
+                        <a href="https://edeniltonborba.github.io/Word-Guess-Game/" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={WordGuessGame}
-                                alt="..."
+                                alt="World Guess Game"
                                 className={
                                     classes.imgRaised +
                                     " " +
@@ -109,13 +110,14 @@ export default function SectionExamples() {
                                 Word Guess Game
                             </Button>
                         </a>
+                        <p className={classes.pStyle}>The game consists of you guessing the title of the song, the tips to guess are; Rock classics between the 70's and 90's.</p>
                     </GridItem>
 
                     <GridItem xs={12} sm={12} md={6}>
                         <a href="https://github.com/EdeniltonBorba/Supermarket" target="_blank" rel="noopener noreferrer" className={classes.link}>
                             <img
                                 src={DayPlanner}
-                                alt="..."
+                                alt="Day Planner"
                                 className={
                                     classes.imgRaised +
                                     " " +
