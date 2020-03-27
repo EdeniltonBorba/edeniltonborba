@@ -17,7 +17,7 @@ export default function SectionAvatarContact() {
                         <GridItem xs={12} sm={12} md={7} className={classes.gridAvatar}>
                             <img
                                 src={image}
-                                alt="..."
+                                alt="Edenilton"
                                 className={classes.imgRoundedCircle + " " + classes.imgFluid}
                             />
                         </GridItem>
