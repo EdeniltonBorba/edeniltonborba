@@ -45,17 +45,15 @@ const typographyStyle = {
     padding: "0px"
   },
   typoText: {
-    paddingLeft: "18%",
     marginBottom: "5px",
     position: "relative",
     width: "100%",
     fontSize: "1.5625rem",
-    marginTop: "-230px",
-    marginRight: "90px"
+    marginRight: "90px",
+    marginTop: "40px"
   },
 
   typoTextTwo: {
-    paddingLeft: "14%",
     marginBottom: "5px",
     position: "relative",
     width: "100%",

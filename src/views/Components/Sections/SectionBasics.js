@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Quote from "components/Typography/Quote.js";
 import styles from "assets/jss/material-kit-react/views/componentsSections/basicsStyle.js";
-import AvatarProfile from "views/Components/Sections/SectionAvatarProfile.js";
+import SectionTextProfile from "views/Components/Sections/SectionTextProfile.js";
 
 
 
@@ -26,9 +26,7 @@ export default function SectionBasics() {
             author=" Confúcio"
           />
         </div>
-
-        <AvatarProfile />
-
+        <SectionTextProfile />
       </div>
     </div>
   );

@@ -21,6 +21,10 @@ const basicsStyle = {
     display: "block"
   },
 
+  textBase: {
+    textAlign: "center",
+  },
+
   cvBootCamp: {
     fontSize: "16px"
   },

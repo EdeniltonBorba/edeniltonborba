@@ -11,6 +11,7 @@ export default function SectionCurriculum() {
 
     return (
         <div>
+            <h3 className={classes.textBase}>Knowledge Base</h3>
             <GridContainer>
                 <GridItem xs={12} sm={6} md={4} lg={3}>
                     <div>
@@ -62,7 +63,8 @@ export default function SectionCurriculum() {
                         </ul>
                         <h4>Currently learning</h4>
                         <ul className={classes.cvBootCamp}>
-                            <li>Typescript</li>
+                            <li>React Native</li>
+                            <li>GraphQL</li>
                             <li>...and so on</li>
                         </ul>
                     </div>
