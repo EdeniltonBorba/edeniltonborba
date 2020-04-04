@@ -52,18 +52,24 @@ export default function SectionCurriculum() {
                             <li>MySQL</li>
                             <li>MariaDB</li>
                             <li>PostgreSQL</li>
+                            <li>GraphQL</li>
+                            <li>AWS Lambda</li>
+
                         </ul>
                     </div>
                 </GridItem>
                 <GridItem xs={12} sm={6} md={4} lg={3}>
                     <div>
+                        <h4>Mobile</h4>
+                        <ul className={classes.cvBootCamp}>
+                            <li>React Native</li>
+                        </ul>
                         <h4>Infrastructure</h4>
                         <ul className={classes.cvBootCamp}>
                             <li>Netlify</li>
                         </ul>
                         <h4>Currently learning</h4>
                         <ul className={classes.cvBootCamp}>
-                            <li>React Native</li>
                             <li>GraphQL</li>
                             <li>...and so on</li>
                         </ul>
